@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# Linkbrary - 링크 관리 서비스
 
-## Project info
+## 프로젝트 소개
 
-**URL**: https://lovable.dev/projects/11de665c-0e1f-4399-bcdb-16a3e2cd5e8b
+Linkbrary는 사용자가 웹 링크를 체계적으로 관리하고 공유할 수 있는 서비스입니다. Codeit 프론트엔드 14기 8팀의 프로젝트입니다.
 
-## How can I edit this code?
+## 주요 기능
 
-There are several ways of editing your application.
+- 🔗 링크 저장 및 관리
+- 📁 폴더별 링크 정리
+- 🔍 링크 검색
+- 👥 링크 공유
+- 🔐 사용자 인증
 
-**Use Lovable**
+## 기술 스택
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/11de665c-0e1f-4399-bcdb-16a3e2cd5e8b) and start prompting.
+- **프론트엔드**
+  - React
+  - TypeScript
+  - Vite
+  - Tailwind CSS
+  - shadcn/ui
+  - React Router
+  - React Query
 
-Changes made via Lovable will be committed automatically to this repo.
+## 프로젝트 구조
 
-**Use your preferred IDE**
+```
+src/
+├── components/     # 재사용 가능한 컴포넌트
+├── pages/         # 페이지 컴포넌트
+├── services/      # API 서비스
+├── contexts/      # React Context
+├── hooks/         # Custom Hooks
+└── lib/           # 유틸리티 함수
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 시작하기
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 필수 조건
 
-Follow these steps:
+- Node.js 18.0.0 이상
+- npm 9.0.0 이상
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 설치 및 실행
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 저장소 클론
+git clone https://github.com/devdevjay/codeit-FE14-8-linkbrary.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 프로젝트 디렉토리로 이동
+cd linkbrary
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 기여자
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- 조한동 - 프론트엔드 개발
 
-**Use GitHub Codespaces**
+## 라이선스
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/11de665c-0e1f-4399-bcdb-16a3e2cd5e8b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+MIT License
